@@ -1,0 +1,50 @@
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.gallery-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 32%;
+  text-align: center;
+}
+
+.gallery-text h1 {
+  margin: 0;
+  font-weight: 400;
+}
+
+.gallery-text p {
+  color: white;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.gallery-photo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 60%;
+  margin: 40px 0;
+}
+
+.gallery-photo img {
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.gallery button {
+  width: 178px;
+  height: 65px;
+  outline: none;
+  font-size: 17px;
+  font-weight: 500;
+  background: none;
+  border: 1px solid white;
+  margin-left: 35px;
+}
