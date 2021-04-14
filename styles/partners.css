@@ -1,4 +1,4 @@
-.gallery {
+.partners {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,7 +7,7 @@
   margin: 100px 0;
 }
 
-.gallery-text {
+.partners-text {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,31 +15,25 @@
   text-align: center;
 }
 
-.gallery-text h1 {
+.partners-text h1 {
   margin: 0;
   font-weight: 400;
 }
 
-.gallery-text p {
+.partners-text p {
   color: white;
   line-height: 30px;
   font-weight: 400;
 }
 
-.gallery-photo {
+.partners-logos {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 60%;
-  margin: 40px 0;
+  justify-content: space-around;
+  width: 50%;
+  margin: 50px 0;
 }
 
-.gallery-photo img {
-  border-radius: 20px;
-  padding: 10px;
-}
-
-.gallery button {
+.partners button {
   width: 178px;
   height: 65px;
   outline: none;

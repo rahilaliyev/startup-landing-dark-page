@@ -1,0 +1,73 @@
+.testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.testimonials h1 {
+  margin: 0;
+  font-weight: 400;
+  padding-bottom: 50px;
+}
+
+.testimonials p {
+  color: white;
+}
+
+.name-job {
+  display: flex;
+  flex-direction: column;
+}
+
+.photo-info {
+  display: flex;
+}
+
+.photo-info img {
+  margin-right: 13px;
+}
+
+.photo-info span {
+  margin: 0 10px;
+}
+
+.article-card {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 40px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.article-card span {
+  font-weight: 500;
+}
+
+.article-card p {
+  font-family: "Roboto", "Graphik" sans-serif;
+}
+
+.first-column,
+.second-column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 23px;
+}
+
+.first-column .article-card:first-child {
+  width: 430px;
+  height: 328px;
+}
+
+.first-column .article-card:last-child,
+.second-column .article-card {
+  width: 430px;
+  height: 304px;
+}
+
+.testimonials-article {
+  display: flex;
+}
