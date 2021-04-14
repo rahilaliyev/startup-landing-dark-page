@@ -28,12 +28,12 @@ nav {
   align-items: center;
 }
 
-ul {
+nav ul {
   display: flex;
   list-style: none;
 }
 
-li {
+nav ul li {
   padding: 0 30px;
 }
 

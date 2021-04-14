@@ -1,0 +1,52 @@
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 107px 0;
+}
+
+.about-site {
+  display: flex;
+}
+
+.about-site ul {
+  list-style: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.about-site ul li {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 19px;
+}
+
+.about-site ul li:first-child {
+  margin-top: 40px;
+}
+
+.site-connection {
+  display: flex;
+  flex-direction: column;
+}
+
+.adress,
+.mobile,
+.social-networks {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.social-networks img {
+  margin: 10px 24px 10px 0;
+}
+
+.adress span,
+.mobile span {
+  padding: 10px;
+}
+
+.mobile img {
+  padding: 4.5px;
+}
