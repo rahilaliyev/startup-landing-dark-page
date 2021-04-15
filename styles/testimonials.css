@@ -1,14 +1,14 @@
 .testimonials {
-  display: flex;
-  justify-content: center;
   align-items: center;
+  display: flex;
   flex-direction: column;
+  justify-content: center;
   padding: 50px;
 }
 
 .testimonials h1 {
-  margin: 0;
   font-weight: 400;
+  margin: 0;
   padding-bottom: 50px;
 }
 
@@ -36,10 +36,10 @@
 .article-card {
   border: 1px solid white;
   border-radius: 10px;
-  padding: 40px;
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 20px;
+  padding: 40px;
 }
 
 .article-card span {
@@ -58,14 +58,14 @@
 }
 
 .first-column .article-card:first-child {
-  width: 430px;
   height: 328px;
+  width: 430px;
 }
 
 .first-column .article-card:last-child,
 .second-column .article-card {
-  width: 430px;
   height: 304px;
+  width: 430px;
 }
 
 .testimonials-article {

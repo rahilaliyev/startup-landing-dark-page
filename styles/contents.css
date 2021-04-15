@@ -1,17 +1,17 @@
 .contents {
-  display: flex;
-  justify-content: center;
   align-items: center;
+  display: flex;
   flex-direction: column;
+  justify-content: center;
   padding: 50px;
 }
 
 .contents-text {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 30%;
   text-align: center;
+  width: 30%;
 }
 
 .contents-text h1 {
@@ -24,22 +24,22 @@
 }
 
 .contents-card {
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .card {
-  width: 476px;
-  height: 620px;
+  align-items: center;
   background-color: #ffffff;
-  margin: 20px;
   border-radius: 10px;
   display: flex;
-  align-items: center;
   flex-direction: column;
+  height: 620px;
   justify-content: space-between;
+  margin: 20px;
   padding: 40px;
+  width: 476px;
 }
 
 .card h3,
@@ -51,22 +51,22 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  width: 55%;
   text-align: center;
+  width: 55%;
 }
 
 .card button {
+  background-color: #4452fe;
+  border: 1px solid #4452fe;
   font-size: 17px;
   font-weight: 500;
   padding: 13.5px 46px;
-  border: none;
-  background-color: #4452fe;
   transition: 0.3s;
 }
 
 .card button:hover {
   background: none;
-  border: 1px solid black;
+  border: 1px solid;
   color: black;
 }
 .card:first-child button {

@@ -1,10 +1,10 @@
 .opentype {
-  width: 65%;
   background-color: #343434;
-  margin: 100px auto;
-  display: flex;
   border-radius: 33px;
+  display: flex;
+  margin: 100px auto;
   overflow: hidden;
+  width: 65%;
 }
 
 .opentype-text-and-button {
@@ -12,16 +12,16 @@
 }
 
 .opentype-text-and-button h1 {
-  font-weight: 400;
   font-size: 52px;
+  font-weight: 400;
 }
 
 .opentype-text-and-button button {
+  background-color: #4452fe;
+  border: none;
   font-size: 17px;
   font-weight: 500;
   padding: 13.5px 67px;
-  border: none;
-  background-color: #4452fe;
   transition: 0.3s;
 }
 

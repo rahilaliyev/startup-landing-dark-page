@@ -1,47 +1,47 @@
 .partners {
-  display: flex;
-  justify-content: center;
   align-items: center;
+  display: flex;
   flex-direction: column;
-  padding: 50px;
+  justify-content: center;
   margin: 100px 0;
+  padding: 50px;
 }
 
 .partners-text {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 32%;
   text-align: center;
+  width: 32%;
 }
 
 .partners-text h1 {
-  margin: 0;
   font-weight: 400;
+  margin: 0;
 }
 
 .partners-text p {
   color: white;
-  line-height: 30px;
   font-weight: 400;
+  line-height: 30px;
 }
 
 .partners-logos {
   display: flex;
   justify-content: space-around;
-  width: 50%;
   margin: 50px 0;
+  width: 50%;
 }
 
 .partners button {
-  width: 178px;
-  height: 65px;
-  outline: none;
-  font-size: 17px;
-  font-weight: 500;
   background: none;
   border: 1px solid white;
+  font-size: 17px;
+  font-weight: 500;
+  height: 65px;
+  outline: none;
   transition: 0.3s;
+  width: 178px;
 }
 
 .partners button:hover {
