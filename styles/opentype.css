@@ -22,4 +22,10 @@
   padding: 13.5px 67px;
   border: none;
   background-color: #4452fe;
+  transition: 0.3s;
+}
+
+.opentype-text-and-button button:hover {
+  background: none;
+  border: 1px solid white;
 }
