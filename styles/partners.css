@@ -41,4 +41,10 @@
   font-weight: 500;
   background: none;
   border: 1px solid white;
+  transition: 0.3s;
+}
+
+.partners button:hover {
+  background-color: #4452fe;
+  border: none;
 }
