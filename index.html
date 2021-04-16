@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Dark Page</title>
     <link rel="stylesheet" href="./styles/fonts.css" />
-    <link rel="stylesheet" href="./styles/container.css" />
+    <link rel="stylesheet" href="./styles/features.css" />
     <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/contents.css" />
     <link rel="stylesheet" href="./styles/gallery.css" />
@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./styles/testimonials.css" />
     <link rel="stylesheet" href="./styles/opentype.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
@@ -32,15 +33,18 @@
           <li>About</li>
           <li>Contact</li>
         </ul>
-        <div class="header-button">
-          <button>Login</button>
+        <button>Login</button>
+        <div class="hamburger-menu">
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
         </div>
       </nav>
       <header>
         <div class="header-wrapper">
           <div class="header-text-and-button-wrapper">
             <div class="header-text-and-button">
-              <h1>Work at speed of thought</h1>
+              <h1>Work at the speed of thought</h1>
               <p>
                 Most calendars are designed for teams. Slate is designed for
                 freelancers who want a simple way to plan their schedule.
@@ -57,53 +61,55 @@
           <div class="linear-gradient"></div>
         </div>
       </header>
-      <section class="container-features">
-        <div class="container-text">
-          <h1>FEATURES</h1>
-          <p>
-            Most calendars are designed for teams. Slate is designed for
-            freelancers who want a simple way to plan their schedule.
-          </p>
-        </div>
-        <br />
-        <div class="images-article">
-          <img src="./assets/control-panel.png" alt="control panel" />
-          <div class="control-panel-text">
-            <ul>
-              <li>
-                <div class="icon-title">
-                  <img
-                    src="./assets/restaurant-menu.svg"
-                    alt="restaurant-menu"
-                  />
-                  <h3>A single source of truth</h3>
-                </div>
-                <p>
-                  When you add work to your Slate calendar we automatically
-                  calculate useful insights
-                </p>
-              </li>
-              <li>
-                <div class="icon-title">
-                  <img src="./assets/alien.svg" alt="alien" />
-                  <h3>Intuitive interface</h3>
-                </div>
-                <p>
-                  When you add work to your Slate calendar we automatically
-                  calculate useful insights
-                </p>
-              </li>
-              <li>
-                <div class="icon-title">
-                  <img src="./assets/infinity.svg" alt="infinity" />
-                  <h3>Or with rules</h3>
-                </div>
-                <p>
-                  When you add work to your Slate calendar we automatically
-                  calculate useful insights
-                </p>
-              </li>
-            </ul>
+      <section class="features">
+        <div class="features-wrapper">
+          <div class="features-text">
+            <h1>FEATURES</h1>
+            <p>
+              Most calendars are designed for teams. Slate is designed for
+              freelancers who want a simple way to plan their schedule.
+            </p>
+          </div>
+          <br />
+          <div class="images-article">
+            <img src="./assets/control-panel.png" alt="control panel" />
+            <div class="control-panel-text">
+              <ul>
+                <li>
+                  <div class="icon-title">
+                    <img
+                      src="./assets/restaurant-menu.svg"
+                      alt="restaurant-menu"
+                    />
+                    <h3>A single source of truth</h3>
+                  </div>
+                  <p>
+                    When you add work to your Slate calendar we automatically
+                    calculate useful insights
+                  </p>
+                </li>
+                <li>
+                  <div class="icon-title">
+                    <img src="./assets/alien.svg" alt="alien" />
+                    <h3>Intuitive interface</h3>
+                  </div>
+                  <p>
+                    When you add work to your Slate calendar we automatically
+                    calculate useful insights
+                  </p>
+                </li>
+                <li>
+                  <div class="icon-title">
+                    <img src="./assets/infinity.svg" alt="infinity" />
+                    <h3>Or with rules</h3>
+                  </div>
+                  <p>
+                    When you add work to your Slate calendar we automatically
+                    calculate useful insights
+                  </p>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
@@ -150,13 +156,17 @@
           </div>
 
           <div class="gallery-photo">
-            <img src="./assets/image1.png" alt="image1" />
-            <img src="./assets/image2.png" alt="image2" />
-            <img src="./assets/image3.png" alt="image3" />
-            <img src="./assets/image4.png" alt="image4" />
-            <img src="./assets/image5.png" alt="image5" />
-            <img src="./assets/image6.png" alt="image6" />
-            <img src="./assets/image7.png" alt="image7" />
+            <div class="first-row">
+              <img src="./assets/image1.png" alt="image1" />
+              <img src="./assets/image2.png" alt="image2" />
+              <img src="./assets/image3.png" alt="image3" />
+              <img src="./assets/image4.png" alt="image4" />
+            </div>
+            <div class="second-row">
+              <img src="./assets/image5.png" alt="image5" />
+              <img src="./assets/image6.png" alt="image6" />
+              <img src="./assets/image7.png" alt="image7" />
+            </div>
           </div>
           <button>See More</button>
         </div>
@@ -170,12 +180,21 @@
           </p>
         </div>
         <div class="partners-logos">
-          <img src="./assets/logos_apple-app-store.png" alt="App store logo" />
-          <img src="./assets/logos_apiary.png" alt="Apiary logo" />
-          <img src="./assets/logos_android-icon.png" alt="Android logo" />
-          <img src="./assets/logos_basecamp.png" alt="Basecamp logo" />
-          <img src="./assets/logos_airbnb.png" alt="Airbnb logo" />
-          <img src="./assets/logos_ibm.png" alt="IBM " />
+          <div class="logos-first-row">
+            <img
+              src="./assets/logos_apple-app-store.png"
+              alt="App store logo"
+            />
+            <img src="./assets/logos_apiary.png" alt="Apiary logo" />
+            <img src="./assets/logos_android-icon.png" alt="Android logo" />
+          </div>
+          <div class="logos-second-row">
+            <img src="./assets/logos_basecamp.png" alt="Basecamp logo" />
+            <img src="./assets/logos_airbnb.png" alt="Airbnb logo" />
+            <div class="ibm-logo">
+              <img src="./assets/logos_ibm.png" alt="IBM " />
+            </div>
+          </div>
         </div>
         <button>All Partners</button>
       </section>
@@ -254,12 +273,14 @@
         </div>
       </section>
       <section class="opentype">
-        <div class="opentype-text-and-button">
-          <h1>OpenType feature and Variable fonts</h1>
-          <button>Try for free</button>
-        </div>
-        <div class="opentype-image">
-          <img src="./assets/Line Chart 1.png" alt="Line Chart" />
+        <div class="opentype-wrapper">
+          <div class="opentype-text-and-button">
+            <h1>OpenType feature and Variable fonts</h1>
+            <button>Try for free</button>
+          </div>
+          <div class="opentype-image">
+            <img src="./assets/Line Chart 1.png" alt="Line Chart" />
+          </div>
         </div>
       </section>
       <footer>

@@ -21,6 +21,7 @@
 }
 
 .gallery-text h1 {
+  font-size: 52px;
   font-weight: 400;
   margin: 0;
 }
@@ -33,8 +34,9 @@
 
 .gallery-photo {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin: 40px auto;
 }
 
@@ -56,5 +58,5 @@
 
 .gallery button:hover {
   background-color: #4452fe;
-  border: none;
+  border: 1px solid #4452fe;
 }

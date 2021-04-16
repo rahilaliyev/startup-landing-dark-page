@@ -1,0 +1,60 @@
+@media only screen and (max-width: 1000px) {
+  .container-body {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  nav .hamburger-menu {
+    display: flex;
+  }
+  nav ul {
+    display: none;
+  }
+  nav button {
+    padding: 13.5px 46px;
+  }
+  .header-text-button {
+    flex-direction: column;
+  }
+  .header-text-button button:last-child {
+    margin: 35px 0 0 0;
+  }
+  .header-text-and-button {
+    width: 62%;
+  }
+
+  .header-text-and-button h1 {
+    font-size: 52px;
+  }
+  .images-article {
+    flex-direction: column;
+  }
+  .contents-card {
+    flex-direction: column;
+  }
+
+  .gallery-photo,
+  .first-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .second-row {
+    display: none;
+  }
+  .testimonials-article {
+    flex-direction: column;
+  }
+
+  .partners .partners-logos {
+    flex-direction: column;
+    width: 70%;
+  }
+
+  .partners .logos-first-row {
+    margin-bottom: 50px;
+  }
+  .ibm-logo img {
+    width: 100px;
+  }
+}

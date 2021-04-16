@@ -15,6 +15,7 @@
 }
 
 .contents-text h1 {
+  font-size: 52px;
   font-weight: 400;
 }
 
@@ -66,7 +67,7 @@ p {
 
 .card button:hover {
   background: none;
-  border: 1px solid;
+  border: 1px solid black;
   color: black;
 }
 .card:first-child button {
