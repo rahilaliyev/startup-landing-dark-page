@@ -2,15 +2,15 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  margin: 100px 0;
+  margin: 100px auto;
   padding: 50px;
+  max-width: 1400px;
 }
 
 .gallery-wrapper {
   align-items: center;
   display: flex;
   flex-direction: column;
-  max-width: 1400px;
 }
 
 .gallery-text {
@@ -30,6 +30,7 @@
   color: white;
   font-weight: 400;
   line-height: 30px;
+  width: 70%;
 }
 
 .gallery-photo {
@@ -59,4 +60,9 @@
 .gallery button:hover {
   background-color: #4452fe;
   border: 1px solid #4452fe;
+}
+
+.third-row {
+  display: flex;
+  display: none;
 }

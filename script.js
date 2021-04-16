@@ -7,3 +7,11 @@ window.addEventListener("scroll", () => {
     document.querySelector("body nav button").style.padding = "30px 46px";
   }
 });
+
+const hamburgerMenu = document.querySelector(".hamburger-menu");
+const ul = document.querySelector("nav ul");
+
+hamburgerMenu.addEventListener("click", () => {
+  hamburgerMenu.classList.toggle("hamburger-rotate");
+  ul.classList.toggle("slide-out");
+});

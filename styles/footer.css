@@ -4,6 +4,11 @@ footer {
   padding: 107px 0;
 }
 
+.footer-wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
 .about-site {
   display: flex;
 }

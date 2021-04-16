@@ -39,18 +39,26 @@
   justify-content: center;
 }
 
-.images-article img {
-  width: 40vw;
+.features-image {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .images-article ul {
-  height: 650px;
-  width: 310px;
+  width: 50%;
+}
+.control-panel-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .control-panel-text ul {
   display: flex;
   flex-direction: column;
+  list-style: none;
 }
 
 .control-panel-text ul li p {

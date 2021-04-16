@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1024px) {
   .container-body {
     max-width: 1000px;
     margin: 0 auto;
@@ -8,8 +8,28 @@
     display: flex;
   }
   nav ul {
-    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: -100%;
+    top: 0%;
+    transition: all 1s ease-in-out;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
+  nav ul li {
+    margin: 20px;
+    font-size: 25px;
+  }
+
+  .slide-out {
+    left: 0%;
+    background-color: #181818;
+  }
+
   nav button {
     padding: 13.5px 46px;
   }
@@ -26,19 +46,28 @@
   .header-text-and-button h1 {
     font-size: 52px;
   }
+
+  .linear-gradient {
+    height: 40vh;
+  }
   .images-article {
     flex-direction: column;
+  }
+
+  .control-panel-text ul {
+    padding: 0;
   }
   .contents-card {
     flex-direction: column;
   }
 
   .gallery-photo,
-  .first-row {
+  .third-row {
     display: flex;
     flex-direction: column;
   }
 
+  .first-row,
   .second-row {
     display: none;
   }
@@ -56,5 +85,28 @@
   }
   .ibm-logo img {
     width: 100px;
+  }
+
+  .features-image img {
+    width: 70%;
+  }
+  .opentype-wrapper {
+    flex-direction: column;
+    border-radius: 0;
+    width: 100%;
+  }
+  .opentype-text-and-button {
+    text-align: center;
+    width: 75%;
+    padding: 86px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .site-connection {
+    align-items: center;
   }
 }
