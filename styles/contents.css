@@ -1,22 +1,14 @@
 .contents {
-  align-items: center;
-  display: flex;
-  justify-content: center;
   max-width: 1400px;
   margin: 0 auto;
 }
 
 .contents-wrapper {
   padding: 50px;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .contents-text {
-  align-items: center;
-  display: flex;
   flex-direction: column;
   text-align: center;
   width: 45%;
@@ -28,21 +20,15 @@
 }
 
 .contents-text p {
-  color: white;
+  color: var(--white);
   line-height: 30px;
   font-weight: 400;
   font-size: 20px;
 }
 
-.contents-card {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
 .card {
   align-items: center;
-  background-color: #ffffff;
+  background-color: var(--white);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -66,18 +52,13 @@ p {
 }
 
 .card button {
-  background-color: #4452fe;
-  border: 1px solid #4452fe;
-  font-size: 17px;
-  font-weight: 500;
   padding: 13.5px 46px;
-  transition: 0.3s;
 }
 
 .card button:hover {
   background: none;
-  border: 1px solid black;
-  color: black;
+  border: 1px solid var(--black);
+  color: var(--black);
 }
 .card:first-child button {
   margin-top: 35px;

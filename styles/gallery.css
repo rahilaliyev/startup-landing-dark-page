@@ -1,21 +1,14 @@
 .gallery {
-  align-items: center;
-  display: flex;
-  justify-content: center;
   margin: 100px auto;
   padding: 50px;
   max-width: 1400px;
 }
 
 .gallery-wrapper {
-  align-items: center;
-  display: flex;
   flex-direction: column;
 }
 
 .gallery-text {
-  align-items: center;
-  display: flex;
   flex-direction: column;
   text-align: center;
 }
@@ -27,16 +20,13 @@
 }
 
 .gallery-text p {
-  color: white;
+  color: var(--white);
   font-weight: 400;
   line-height: 30px;
 }
 
 .gallery-photo {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin: 40px auto;
 }
 
@@ -46,22 +36,14 @@
 }
 
 .gallery button {
-  background: none;
-  border: 1px solid white;
-  font-size: 17px;
-  font-weight: 500;
-  height: 65px;
-  outline: none;
-  transition: 0.3s;
-  width: 178px;
+  padding: 13.5px 40px;
 }
 
 .gallery button:hover {
-  background-color: #4452fe;
-  border: 1px solid #4452fe;
+  background-color: var(--blue-button);
+  border: 1px solid var(--blue-button);
 }
 
 .third-row {
-  display: flex;
   display: none;
 }

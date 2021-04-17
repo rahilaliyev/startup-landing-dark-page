@@ -1,4 +1,6 @@
 footer {
+  max-width: 1400px;
+  margin: 0 auto;
   padding: 107px 0;
 }
 
@@ -24,6 +26,16 @@ footer {
   margin-bottom: 19px;
 }
 
+.about-site ul li a {
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.about-site ul li a:hover {
+  color: wheat;
+}
+
 .about-site ul li:first-child {
   margin-top: 40px;
 }
@@ -41,7 +53,7 @@ footer {
   margin: 10px;
 }
 
-.social-networks img {
+.social-networks a {
   margin: 10px 24px 10px 0;
   cursor: pointer;
 }

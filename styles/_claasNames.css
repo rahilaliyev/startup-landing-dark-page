@@ -1,0 +1,27 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-fill {
+  cursor: pointer;
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 500;
+  transition: 0.3s;
+  outline: none;
+  background-color: var(--blue-button);
+  border: 1px solid var(--blue-button);
+}
+
+.button-empty {
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+  transition: 0.3s;
+  background: var(--black);
+  border: 1px solid var(--white);
+  outline: none;
+  line-height: 25px;
+}

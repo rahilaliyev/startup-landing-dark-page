@@ -1,17 +1,11 @@
 .opentype {
-  align-items: center;
-  display: flex;
-  justify-content: center;
   max-width: 1400px;
   margin: 80px auto;
 }
 
 .opentype-wrapper {
-  align-items: center;
-  background-color: #343434;
+  background-color: var(--dark-grey);
   border-radius: 33px;
-  display: flex;
-  justify-content: center;
   overflow: hidden;
   width: 90%;
 }
@@ -26,17 +20,12 @@
 }
 
 .opentype-text-and-button button {
-  background-color: #4452fe;
-  border: 1px solid #4452fe;
-  font-size: 17px;
-  font-weight: 500;
   padding: 13.5px 67px;
-  transition: 0.3s;
 }
 
 .opentype-text-and-button button:hover {
   background: none;
-  border: 1px solid white;
+  border: 1px solid var(--white);
 }
 
 .opentype-image img:last-child {

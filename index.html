@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="./styles/opentype.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
     <link rel="stylesheet" href="./styles/responsive.css" />
+    <link rel="stylesheet" href="./styles/_variables.css" />
+    <link rel="stylesheet" href="./styles/_claasNames.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
@@ -28,12 +30,12 @@
           <img src="./assets/Logo.png" alt="Logo" />
         </div>
         <ul>
-          <li>Home</li>
-          <li>Product</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li><a href="#"> Home</a></li>
+          <li><a href="#"> Product</a></li>
+          <li><a href="#"> About</a></li>
+          <li><a href="#"> Contact</a></li>
         </ul>
-        <button>Login</button>
+        <button class="button-empty">Login</button>
         <div class="hamburger-menu">
           <div class="hamburger-line"></div>
           <div class="hamburger-line"></div>
@@ -42,17 +44,17 @@
       </nav>
       <header>
         <div class="header-wrapper">
-          <div class="header-text-and-button-wrapper">
-            <div class="header-text-and-button">
+          <div class="header-text-and-button-wrapper flex">
+            <div class="header-text-and-button flex">
               <h1>Work at the speed of thought</h1>
               <p>
                 Most calendars are designed for teams. Slate is designed for
                 freelancers who want a simple way to plan their schedule.
               </p>
               <br />
-              <div class="header-text-button">
-                <button>Try for free</button>
-                <button>Learn More</button>
+              <div class="header-text-button flex">
+                <button class="button-fill">Try for free</button>
+                <button class="button-empty">Learn More</button>
               </div>
             </div>
           </div>
@@ -61,9 +63,9 @@
           <div class="linear-gradient"></div>
         </div>
       </header>
-      <section class="features">
-        <div class="features-wrapper">
-          <div class="features-text">
+      <section class="features flex">
+        <div class="features-wrapper flex">
+          <div class="features-text flex">
             <h1>FEATURES</h1>
             <p>
               Most calendars are designed for teams. Slate is designed for
@@ -71,11 +73,11 @@
             </p>
           </div>
           <br />
-          <div class="images-article">
-            <div class="features-image">
+          <div class="images-article flex">
+            <div class="features-image flex">
               <img src="./assets/control-panel.png" alt="control panel" />
             </div>
-            <div class="control-panel-text">
+            <div class="control-panel-text flex">
               <ul>
                 <li>
                   <div class="icon-title">
@@ -117,23 +119,23 @@
           </div>
         </div>
       </section>
-      <section class="contents">
-        <div class="contents-wrapper">
-          <div class="contents-text">
+      <section class="contents flex">
+        <div class="contents-wrapper flex">
+          <div class="contents-text flex">
             <h1>Contents</h1>
             <p>
               We focus on ergonomics and meeting you where you work. It's only a
               keystroke away.
             </p>
           </div>
-          <div class="contents-card">
+          <div class="contents-card flex">
             <div class="card">
               <h3>Work</h3>
               <p>
                 Ever wondered if you're too reliant on a client for work? Slate
                 helps you identify .
               </p>
-              <button>Sign up</button>
+              <button class="button-fill">Sign up</button>
               <img src="./assets/Macbook Pro.png" alt="Macbook Pro" />
             </div>
             <div class="card">
@@ -142,7 +144,7 @@
                 Ever wondered if you're too reliant on a client for work? Slate
                 helps you identify .
               </p>
-              <button>Try for free</button>
+              <button class="button-fill">Try for free</button>
               <img
                 src="./assets/Boards Notifications2.png"
                 alt="Boards Notifications"
@@ -151,9 +153,9 @@
           </div>
         </div>
       </section>
-      <section class="gallery">
-        <div class="gallery-wrapper">
-          <div class="gallery-text">
+      <section class="gallery flex">
+        <div class="gallery-wrapper flex">
+          <div class="gallery-text flex">
             <h1>Gallery</h1>
             <p>
               We focus on ergonomics and meeting you where you work.
@@ -162,7 +164,7 @@
             </p>
           </div>
 
-          <div class="gallery-photo">
+          <div class="gallery-photo flex">
             <div class="first-row">
               <img src="./assets/image1.png" alt="image1" />
               <img src="./assets/image2.png" alt="image2" />
@@ -181,12 +183,12 @@
               <img src="./assets/image11.png" alt="image11" />
             </div>
           </div>
-          <button>See More</button>
+          <button class="button-empty">See More</button>
         </div>
       </section>
-      <section class="partners">
-        <div class="partners-wrapper">
-          <div class="partners-text">
+      <section class="partners flex">
+        <div class="partners-wrapper flex">
+          <div class="partners-text flex">
             <h1>Partners</h1>
             <p>
               We focus on ergonomics and meeting you where you work. <br />
@@ -211,10 +213,10 @@
             </div>
           </div>
         </div>
-        <button>All Partners</button>
+        <button class="button-empty">All Partners</button>
       </section>
-      <section class="testimonials">
-        <div class="testimonials-wrapper">
+      <section class="testimonials flex">
+        <div class="testimonials-wrapper flex">
           <h1>Testimonials</h1>
           <div class="testimonials-article">
             <div class="first-column">
@@ -356,15 +358,18 @@
           </div>
         </div>
       </section>
-      <section class="opentype">
-        <div class="opentype-wrapper">
+      <section class="opentype flex">
+        <div class="opentype-wrapper flex">
           <div class="opentype-text-and-button">
             <h1>OpenType feature and Variable fonts</h1>
-            <button>Try for free</button>
+            <button class="button-fill">Try for free</button>
           </div>
           <div class="opentype-image">
             <img src="./assets/Line Chart 1.png" alt="Line Chart" />
-            <img src="./assets/Line chart for mobile.png" alt="Line Chart for mobile">
+            <img
+              src="./assets/Line chart for mobile.png"
+              alt="Line Chart for mobile"
+            />
           </div>
         </div>
       </section>
@@ -373,24 +378,24 @@
           <div class="about-site">
             <ul>
               Fingertipe
-              <li>Home</li>
-              <li>Examples</li>
-              <li>Pricing</li>
-              <li>Updates</li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Examples</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Updates</a></li>
             </ul>
             <ul>
               Resources
-              <li>Home</li>
-              <li>Examples</li>
-              <li>Pricing</li>
-              <li>Updates</li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Examples</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Updates</a></li>
             </ul>
             <ul>
               About
-              <li>Home</li>
-              <li>Examples</li>
-              <li>Pricing</li>
-              <li>Updates</li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Examples</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Updates</a></li>
             </ul>
           </div>
           <div class="site-connection">
@@ -403,9 +408,15 @@
               <span>(239) 555-0108</span>
             </div>
             <div class="social-networks">
-              <img src="./assets/twitter-logo.png" alt="Twitter Logo" />
-              <img src="./assets/fb-logo.png" alt="Facebook logo" />
-              <img src="./assets/lindekin-logo.png" alt="Linkedin logo" />
+              <a href="#">
+                <img src="./assets/twitter-logo.png" alt="Twitter Logo" />
+              </a>
+              <a href="#">
+                <img src="./assets/fb-logo.png" alt="Facebook logo" />
+              </a>
+              <a href="#">
+                <img src="./assets/lindekin-logo.png" alt="Linkedin logo" />
+              </a>
             </div>
           </div>
         </div>
