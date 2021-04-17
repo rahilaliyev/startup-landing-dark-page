@@ -48,7 +48,7 @@
   justify-content: space-between;
   margin: 20px;
   padding: 40px;
-  width: 476px;
+  width: 40%;
 }
 
 .card h3,
@@ -80,4 +80,8 @@ p {
 }
 .card:first-child button {
   margin-top: 35px;
+}
+
+.card img {
+  width: 70%;
 }

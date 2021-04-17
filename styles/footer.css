@@ -1,6 +1,4 @@
 footer {
-  display: flex;
-  justify-content: space-evenly;
   padding: 107px 0;
 }
 
@@ -51,6 +49,8 @@ footer {
 .adress span,
 .mobile span {
   padding: 10px;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .mobile img {

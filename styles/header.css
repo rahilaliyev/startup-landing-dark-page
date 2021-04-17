@@ -18,13 +18,11 @@ body {
   margin: 0 auto;
 }
 
-header {
-  margin: 0 auto;
-  max-width: 1400px;
-}
 
 .header-wrapper {
   justify-content: space-around;
+  margin: 0 auto;
+  max-width: 1400px;
 }
 
 nav {
