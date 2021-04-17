@@ -12,7 +12,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 100px 0;
   padding: 50px;
 }
 
@@ -21,7 +20,6 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 70%;
 }
 
 .partners-text h1 {
@@ -41,19 +39,21 @@
   justify-content: space-around;
   align-items: center;
   margin: 50px 0;
-  width: 100%;
+  width: 150%;
 }
 
 .logos-first-row {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  align-items: center;
 }
 
 .logos-second-row {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  align-items: center;
 }
 
 .ibm-logo {

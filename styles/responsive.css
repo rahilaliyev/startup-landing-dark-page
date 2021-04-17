@@ -44,8 +44,8 @@
     line-height: 62px;
   }
 
-  .linear-gradient {
-    height: 40vh;
+  .graphic-image {
+    height: 55vh;
   }
   .images-article {
     flex-direction: column;
@@ -54,12 +54,16 @@
   .control-panel-text ul {
     padding: 0;
   }
+
+  .contents-text {
+    width: 60%;
+  }
   .contents-card {
     flex-direction: column;
   }
 
   .card {
-    width: 100%;
+    width: 70%;
   }
 
   .gallery-photo,
@@ -72,6 +76,18 @@
   .second-row {
     display: none;
   }
+
+  .testimonials .first-column,
+  .second-column {
+    display: none;
+  }
+
+  .testimonials .third-column {
+    display: block;
+    width: 352px;
+    height: 376px;
+  }
+
   .testimonials-article {
     flex-direction: column;
   }
@@ -90,6 +106,10 @@
 
   .features-image img {
     width: 100%;
+  }
+
+  .features-text {
+    width: 52%;
   }
   .opentype-wrapper {
     flex-direction: column;
@@ -113,16 +133,58 @@
 }
 
 @media only screen and (max-width: 600px) {
+  nav button {
+    padding: 13.5px 46px;
+  }
+
   .header-text-and-button h1 {
     width: 100%;
+  }
+
+  .header-text-and-button p {
+    width: 140%;
+  }
+
+  .graphic-image {
+    height: 33vh;
   }
 
   .features-image img {
     width: 100%;
   }
-  .card {
-    width: 85%;
+
+  .features-text {
+    width: 95%;
+    margin: 0;
   }
+
+  .images-article ul {
+    width: 57%;
+  }
+
+  .contents-text {
+    width: 90%;
+  }
+  .card p {
+    padding: 45px 30px;
+    width: 130%;
+  }
+
+  .card img {
+    width: 120%;
+  }
+
+  .partners-wrapper {
+    margin: 0 auto;
+  }
+
+  .partners .partners-logos {
+    width: 100%;
+  }
+  .gallery-text p {
+    width: 110%;
+  }
+
   .footer-wrapper {
     align-items: flex-start;
     padding: 0 115px;

@@ -53,11 +53,13 @@
 }
 
 .article-card p {
-  font-family: "Roboto", "Graphik" sans-serif;
+  font-family: "Roboto", "Graphik", sans-serif;
+  text-align: left;
 }
 
 .first-column,
-.second-column {
+.second-column,
+.third-column {
   display: flex;
   flex-direction: column;
   margin-right: 23px;
@@ -69,9 +71,14 @@
 }
 
 .first-column .article-card:last-child,
-.second-column .article-card {
+.second-column .article-card,
+.third-column .article-card {
   height: 304px;
   width: 430px;
+}
+
+.third-column {
+  display: none;
 }
 
 .testimonials-article {
