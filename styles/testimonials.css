@@ -22,6 +22,12 @@
   color: white;
 }
 
+.testimonials-article {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .name-job {
   display: flex;
   flex-direction: column;
@@ -62,25 +68,11 @@
 .third-column {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin-right: 23px;
-}
-
-.first-column .article-card:first-child {
-  height: 328px;
-  width: 430px;
-}
-
-.first-column .article-card:last-child,
-.second-column .article-card,
-.third-column .article-card {
-  height: 304px;
-  width: 430px;
+  width: 25%;
 }
 
 .third-column {
   display: none;
-}
-
-.testimonials-article {
-  display: flex;
 }

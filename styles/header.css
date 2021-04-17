@@ -138,7 +138,6 @@ nav button {
 }
 
 .linear-gradient {
-  background: rgb(255, 68, 87);
   background: linear-gradient(
     180deg,
     rgba(255, 68, 87, 0) 0%,

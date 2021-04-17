@@ -49,9 +49,6 @@
   align-items: center;
 }
 
-.images-article ul {
-  width: 50%;
-}
 .control-panel-text {
   display: flex;
   justify-content: center;
@@ -59,12 +56,14 @@
 }
 
 .control-panel-text ul {
+  width: 50%;
   display: flex;
   flex-direction: column;
   list-style: none;
 }
 
 .control-panel-text ul li p {
+  text-align: left;
   color: white;
   font-size: 16px;
   font-weight: 400;

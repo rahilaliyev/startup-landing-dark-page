@@ -38,3 +38,7 @@
   background: none;
   border: 1px solid white;
 }
+
+.opentype-image img:last-child {
+  display: none;
+}
