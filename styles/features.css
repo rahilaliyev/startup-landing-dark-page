@@ -16,23 +16,10 @@
   width: 45%;
 }
 
-.features-text p {
-  color: var(--white);
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 30px;
-}
-
-.features-text h1 {
-  font-size: 52px;
-  font-weight: 400;
-}
-
 
 .features-image {
   width: 70%;
 }
-
 
 .control-panel-text ul {
   width: 50%;

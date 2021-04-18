@@ -13,27 +13,8 @@ footer {
   display: flex;
 }
 
-.about-site ul {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 30px;
-  list-style: none;
-}
-
 .about-site ul li {
-  font-size: 16px;
-  line-height: 24px;
   margin-bottom: 19px;
-}
-
-.about-site ul li a {
-  transition: 0.3s ease-in-out;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.about-site ul li a:hover {
-  color: wheat;
 }
 
 .about-site ul li:first-child {
@@ -58,8 +39,8 @@ footer {
   cursor: pointer;
 }
 
-.adress span,
-.mobile span {
+.adress p,
+.mobile p {
   padding: 10px;
   font-size: 16px;
   line-height: 24px;

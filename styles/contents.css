@@ -14,18 +14,6 @@
   width: 45%;
 }
 
-.contents-text h1 {
-  font-size: 52px;
-  font-weight: 400;
-}
-
-.contents-text p {
-  color: var(--white);
-  line-height: 30px;
-  font-weight: 400;
-  font-size: 20px;
-}
-
 .card {
   align-items: center;
   background-color: var(--white);
@@ -37,8 +25,8 @@
   width: 40%;
 }
 
-.contents .card h3,
-p {
+.contents-wrapper .card h3,
+.contents-wrapper .card span {
   color: black;
   text-align: center;
 }

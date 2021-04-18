@@ -8,17 +8,6 @@
   flex-direction: column;
 }
 
-.testimonials h1 {
-  font-size: 52px;
-  font-weight: 400;
-  margin: 0;
-  padding-bottom: 50px;
-}
-
-.testimonials p {
-  color: var(--white);
-}
-
 .testimonials-article {
   display: flex;
   justify-content: center;

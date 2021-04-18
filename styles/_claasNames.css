@@ -25,3 +25,40 @@
   outline: none;
   line-height: 25px;
 }
+
+h2 {
+  font-size: 52px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+
+.little-p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+ul {
+  list-style: none;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+ul li a {
+  font-size: 16px;
+  line-height: 24px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: wheat;
+}

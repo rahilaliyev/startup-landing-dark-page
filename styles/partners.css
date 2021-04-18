@@ -14,18 +14,6 @@
   text-align: center;
 }
 
-.partners-text h1 {
-  font-size: 52px;
-  font-weight: 400;
-  margin: 0;
-}
-
-.partners-text p {
-  color: var(--white);
-  font-weight: 400;
-  line-height: 30px;
-}
-
 .partners-logos {
   display: flex;
   justify-content: space-around;

@@ -120,10 +120,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-  nav {
-    justify-content: space-evenly;
-  }
-
   nav button {
     padding: 13.5px 46px;
   }

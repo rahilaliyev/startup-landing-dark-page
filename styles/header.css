@@ -23,27 +23,17 @@ body {
 nav {
   align-items: center;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: var(--black);
   padding: 20px 0;
 }
 
 nav ul {
   display: flex;
-  list-style: none;
 }
 
 nav ul li {
   padding: 0 30px;
-}
-nav ul li a {
-  transition: 0.3s ease-in-out;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-nav ul li a:hover {
-  color: wheat;
 }
 
 nav button {
@@ -69,12 +59,7 @@ nav button:hover,
 }
 
 .header-text-and-button p {
-  color: var(--white);
-  line-height: 30px;
-  font-size: 20px;
-  font-weight: 400;
   width: 60%;
-  text-align: center;
 }
 
 .header-text-button {
