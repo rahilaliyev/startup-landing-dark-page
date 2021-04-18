@@ -5,26 +5,26 @@
     display: flex;
   }
   nav ul {
-    position: fixed;
-    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     height: 100vh;
+    justify-content: center;
     left: -70%;
+    position: fixed;
     top: 0;
     transition: all 1s ease-in-out;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
   }
 
   nav ul li {
-    margin: 20px;
     font-size: 25px;
+    margin: 20px;
   }
 
   .slide-out {
-    left: 0%;
     background-color: var(--black);
+    left: 0%;
   }
 
   nav button {
@@ -58,6 +58,14 @@
     height: 55vh;
   }
 
+  .images-article {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .control-panel-text {
+    width: 49%;
+  }
   .control-panel-text ul {
     padding: 0;
   }
@@ -82,8 +90,8 @@
   }
   .testimonials .third-column,
   .article-card {
-    width: 100%;
     height: 100%;
+    width: 100%;
   }
 
   .partners .partners-logos {
@@ -109,9 +117,9 @@
     width: 100%;
   }
   .opentype-text-and-button {
+    padding: 86px;
     text-align: center;
     width: 75%;
-    padding: 86px;
   }
 
   .footer-wrapper {
@@ -125,8 +133,8 @@
   }
 
   .hamburger-menu {
-    width: 44px;
     height: 27px;
+    width: 44px;
   }
 
   .hamburger-line:nth-child(2) {
@@ -156,8 +164,8 @@
   }
 
   .features-text {
-    width: 95%;
     margin: 0;
+    width: 95%;
   }
 
   .images-article ul {

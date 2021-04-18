@@ -1,7 +1,7 @@
 .partners {
-  max-width: 1400px;
-  margin: 80px auto;
   flex-direction: column;
+  margin: 80px auto;
+  max-width: 1400px;
 }
 
 .partners-wrapper {
@@ -15,25 +15,25 @@
 }
 
 .partners-logos {
+  align-items: center;
   display: flex;
   justify-content: space-around;
-  align-items: center;
   margin: 50px 0;
   width: 150%;
 }
 
 .logos-first-row,
 .logos-second-row {
+  align-items: center;
   display: flex;
   justify-content: space-around;
   width: 100%;
-  align-items: center;
 }
 
 .ibm-logo {
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
 }
 

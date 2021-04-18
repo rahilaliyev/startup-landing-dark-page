@@ -1,11 +1,11 @@
 .contents {
-  max-width: 1400px;
   margin: 0 auto;
+  max-width: 1400px;
 }
 
 .contents-wrapper {
-  padding: 50px;
   flex-direction: column;
+  padding: 50px;
 }
 
 .contents-text {
@@ -17,6 +17,7 @@
 .card {
   align-items: center;
   background-color: var(--white);
+  border: 1px solid var(--card-border);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -25,18 +26,15 @@
   width: 40%;
 }
 
-.contents-wrapper .card h3,
-.contents-wrapper .card span {
-  color: black;
+.contents-wrapper .card h3 {
+  color: var(--black);
   text-align: center;
 }
 
 .card p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  width: 60%;
+  color: var(--light-grey);
   padding: 45px 0;
+  width: 60%;
 }
 
 .card button {
@@ -49,8 +47,8 @@
   color: var(--black);
 }
 .card:first-child button {
-  margin-top: 35px;
   margin-bottom: 45px;
+  margin-top: 35px;
 }
 
 .card:last-child button {

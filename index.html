@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Dark Page</title>
+    <link rel="stylesheet" href="./styles/body.css" />
+    <link rel="stylesheet" href="./styles/_variables.css" />
+    <link rel="stylesheet" href="./styles/_claasNames.css" />
     <link rel="stylesheet" href="./styles/fonts.css" />
-    <link rel="stylesheet" href="./styles/features.css" />
+    <link rel="stylesheet" href="./styles/nav.css" />
     <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/features.css" />
     <link rel="stylesheet" href="./styles/contents.css" />
     <link rel="stylesheet" href="./styles/gallery.css" />
     <link rel="stylesheet" href="./styles/partners.css" />
@@ -15,8 +19,6 @@
     <link rel="stylesheet" href="./styles/opentype.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
     <link rel="stylesheet" href="./styles/responsive.css" />
-    <link rel="stylesheet" href="./styles/_variables.css" />
-    <link rel="stylesheet" href="./styles/_claasNames.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
@@ -27,7 +29,7 @@
     <div class="container-body">
       <nav>
         <div class="logo">
-          <img src="./assets/Logo.png" alt="Logo" />
+          <a href="#"> <img src="./assets/Logo.png" alt="Logo" /></a>
         </div>
         <ul>
           <li><a href="#"> Home</a></li>
@@ -73,11 +75,11 @@
             </p>
           </div>
           <br />
-          <div class="images-article flex">
-            <div class="features-image flex">
+          <div class="images-article">
+            <div class="features-image">
               <img src="./assets/control-panel.png" alt="control panel" />
             </div>
-            <div class="control-panel-text flex">
+            <div class="control-panel-text">
               <ul>
                 <li>
                   <div class="icon-title">
@@ -123,15 +125,15 @@
         <div class="contents-wrapper flex">
           <div class="contents-text flex">
             <h2>Contents</h2>
-            <span>
+            <p>
               We focus on ergonomics and meeting you where you work. It's only a
               keystroke away.
-            </span>
+            </p>
           </div>
           <div class="contents-card flex">
             <div class="card">
               <h3>Work</h3>
-              <p>
+              <p class="little-p">
                 Ever wondered if you're too reliant on a client for work? Slate
                 helps you identify .
               </p>
@@ -140,7 +142,7 @@
             </div>
             <div class="card">
               <h3>Design with real data</h3>
-              <p>
+              <p class="little-p">
                 Ever wondered if you're too reliant on a client for work? Slate
                 helps you identify .
               </p>
@@ -197,18 +199,30 @@
           </div>
           <div class="partners-logos">
             <div class="logos-first-row">
-              <img
-                src="./assets/logos_apple-app-store.png"
-                alt="App store logo"
-              />
-              <img src="./assets/logos_apiary.png" alt="Apiary logo" />
-              <img src="./assets/logos_android-icon.png" alt="Android logo" />
+              <a href="#">
+                <img
+                  src="./assets/logos_apple-app-store.png"
+                  alt="App store logo"
+                />
+              </a>
+              <a href="#">
+                <img src="./assets/logos_apiary.png" alt="Apiary logo" />
+              </a>
+              <a href="#">
+                <img src="./assets/logos_android-icon.png" alt="Android logo" />
+              </a>
             </div>
             <div class="logos-second-row">
-              <img src="./assets/logos_basecamp.png" alt="Basecamp logo" />
-              <img src="./assets/logos_airbnb.png" alt="Airbnb logo" />
+              <a href="#">
+                <img src="./assets/logos_basecamp.png" alt="Basecamp logo" />
+              </a>
+              <a href="#">
+                <img src="./assets/logos_airbnb.png" alt="Airbnb logo" />
+              </a>
               <div class="ibm-logo">
-                <img src="./assets/logos_ibm.png" alt="IBM " />
+                <a href="#">
+                  <img src="./assets/logos_ibm.png" alt="IBM " />
+                </a>
               </div>
             </div>
           </div>

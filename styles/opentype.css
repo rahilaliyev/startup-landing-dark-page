@@ -1,6 +1,6 @@
 .opentype {
-  max-width: 1400px;
   margin: 80px auto;
+  max-width: 1400px;
 }
 
 .opentype-wrapper {
@@ -12,6 +12,10 @@
 
 .opentype-text-and-button {
   padding: 0 86px;
+}
+
+.opentype-text-and-button h2 {
+  text-align: left;
 }
 
 .opentype-text-and-button button {

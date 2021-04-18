@@ -1,6 +1,6 @@
 footer {
-  max-width: 1400px;
   margin: 0 auto;
+  max-width: 1400px;
   padding: 107px 0;
 }
 
@@ -35,15 +35,15 @@ footer {
 }
 
 .social-networks a {
-  margin: 10px 24px 10px 0;
   cursor: pointer;
+  margin: 10px 24px 10px 0;
 }
 
 .adress p,
 .mobile p {
-  padding: 10px;
   font-size: 16px;
   line-height: 24px;
+  padding: 10px;
 }
 
 .mobile img {

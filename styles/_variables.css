@@ -1,6 +1,10 @@
 :root {
-  --black: #181818;
-  --white: #ffffff;
+  --black: #000000;
   --blue-button: #4452fe;
+  --card-border: #d3d3d3;
+  --dark-background: #181818;
   --dark-grey: #343434;
+  --light-grey: #5c5c5c;
+  --testimonials-border: #dedede;
+  --white: #ffffff;
 }

@@ -1,62 +1,80 @@
 .flex {
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
+}
+
+button {
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25px;
+  outline: none;
+  transition: 0.3s;
 }
 
 .button-fill {
-  cursor: pointer;
-  font-size: 17px;
-  line-height: 25px;
-  font-weight: 500;
-  transition: 0.3s;
-  outline: none;
   background-color: var(--blue-button);
   border: 1px solid var(--blue-button);
 }
 
 .button-empty {
-  cursor: pointer;
-  font-size: 17px;
-  font-weight: 500;
-  transition: 0.3s;
-  background: var(--black);
+  background: var(--dark-background);
   border: 1px solid var(--white);
-  outline: none;
-  line-height: 25px;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 88px;
 }
 
 h2 {
   font-size: 52px;
   font-weight: 400;
+  line-height: 62px;
 }
 
-p {
+p,
+h3 {
   font-size: 20px;
-  font-weight: 400;
   line-height: 30px;
+}
+
+h1,
+h2,
+h3,
+p {
   text-align: center;
+}
+
+p,
+.little-p {
+  font-weight: 400;
+}
+
+h1,
+h3 {
+  font-weight: 500;
 }
 
 .little-p {
   font-size: 16px;
-  font-weight: 400;
   line-height: 24px;
 }
 
 ul {
-  list-style: none;
   font-size: 20px;
-  line-height: 30px;
   font-weight: 500;
+  line-height: 30px;
+  list-style: none;
 }
 
 ul li a {
+  cursor: pointer;
   font-size: 16px;
   line-height: 24px;
-  transition: 0.3s ease-in-out;
-  cursor: pointer;
   text-decoration: none;
+  transition: 0.3s ease-in-out;
 }
 
 ul li a:hover {
