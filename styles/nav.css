@@ -4,6 +4,7 @@ nav {
   display: flex;
   justify-content: space-evenly;
   padding: 20px 0;
+  z-index: 1;
 }
 
 nav ul {

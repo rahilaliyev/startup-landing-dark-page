@@ -2,6 +2,9 @@
   margin: 0 auto;
   max-width: 1400px;
   padding: 50px;
+  transform: translateX(-70%);
+  opacity: 0;
+  transition: 1.5s ease-in-out;
 }
 
 .testimonials-wrapper {

@@ -8,11 +8,11 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: calc(100vh - 103px);
     justify-content: center;
     left: -70%;
     position: fixed;
-    top: 0;
+    top: 8%;
     transition: all 1s ease-in-out;
     width: 100%;
   }
@@ -30,7 +30,7 @@
   nav button {
     padding: 13.5px 46px;
   }
-  .header-text-button,
+  .header-button,
   .images-article,
   .contents-card,
   .testimonials-article,
@@ -41,7 +41,7 @@
   .third-row {
     flex-direction: column;
   }
-  .header-text-button button:last-child {
+  .header-button button:last-child {
     margin: 35px 0 0 0;
   }
   .header-text-and-button {
@@ -115,6 +115,10 @@
   .opentype-wrapper {
     border-radius: 0;
     width: 100%;
+  }
+
+  .opentype-text-and-button h2 {
+    text-align: center;
   }
   .opentype-text-and-button {
     padding: 86px;
@@ -196,11 +200,12 @@
     width: 100%;
   }
   .gallery-text p {
-    width: 110%;
+    width: 70%;
   }
   .opentype-text-and-button {
     width: 125%;
   }
+
   .opentype-image img:first-child {
     display: none;
   }

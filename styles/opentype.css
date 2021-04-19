@@ -1,6 +1,9 @@
 .opentype {
   margin: 80px auto;
   max-width: 1400px;
+  transform: translateX(-70%);
+  opacity: 0;
+  transition: 1.5s ease-in-out;
 }
 
 .opentype-wrapper {
