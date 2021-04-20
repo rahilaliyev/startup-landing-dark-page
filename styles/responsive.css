@@ -170,8 +170,13 @@
     height: 33vh;
   }
 
+  .features-image {
+    width: 100%;
+  }
+
   .features-image img {
     width: 100%;
+    object-fit: contain;
   }
 
   .features-text {
