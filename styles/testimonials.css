@@ -5,26 +5,43 @@
 }
 
 .testimonials-wrapper {
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .testimonials-article {
   align-items: flex-start;
+  -webkit-box-align: start;
+  -webkit-box-pack: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: start;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
 .name-job {
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .photo-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .photo-info img {
   margin-right: 13px;
+  -o-object-fit: contain;
   object-fit: contain;
 }
 
@@ -53,8 +70,15 @@
 .first-column,
 .second-column,
 .third-column {
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-flex-pack: center;
   justify-content: center;
   margin-right: 23px;
   width: 30%;
@@ -68,5 +92,7 @@
 .second-column.visible,
 .third-column.visible {
   opacity: 1;
+  -webkit-transform: translateX(0px);
+  -ms-transform: translateX(0px);
   transform: translateX(0px);
 }

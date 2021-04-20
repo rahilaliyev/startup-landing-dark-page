@@ -2,17 +2,30 @@
   nav .hamburger-menu,
   .gallery-photo,
   .third-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
   nav ul {
     align-items: center;
+    -webkit-box-align: center;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-align: center;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -ms-flex-pack: center;
     height: calc(100vh - 97px);
     justify-content: center;
     left: -70%;
     position: fixed;
     top: 10%;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
     width: 100%;
     z-index: 1;
@@ -40,6 +53,9 @@
   .footer-wrapper,
   .gallery-photo,
   .third-row {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .header-button button:last-child {
@@ -60,8 +76,12 @@
   }
 
   .images-article {
-    justify-content: center;
     align-items: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 
   .control-panel-text {
@@ -129,6 +149,8 @@
 
   .footer-wrapper {
     align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
   }
 }
 
@@ -155,10 +177,14 @@
     width: 50%;
   }
   .hamburger-rotate .hamburger-line:first-child {
+    -webkit-transform: rotate(-45deg) translate(-13px, 5px);
+    -ms-transform: rotate(-45deg) translate(-13px, 5px);
     transform: rotate(-45deg) translate(-13px, 5px);
   }
 
   .hamburger-rotate .hamburger-line:last-child {
+    -webkit-transform: rotate(45deg) translate(-7px, 0px);
+    -ms-transform: rotate(45deg) translate(-7px, 0px);
     transform: rotate(45deg) translate(-7px, 0px);
   }
   .header-text-and-button h1 {
@@ -178,8 +204,9 @@
   }
 
   .features-image img {
-    width: 100%;
+    -o-object-fit: contain;
     object-fit: contain;
+    width: 100%;
   }
 
   .features-text {
@@ -230,9 +257,14 @@
 
   .footer-wrapper {
     align-items: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     padding: 0 115px;
   }
   .footer-wrapper .about-site {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .footer-wrapper .about-site ul {
@@ -240,6 +272,8 @@
   }
   .footer-wrapper .site-connection {
     align-items: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
   }
   .footer-wrapper .site-connection .adress,
   .mobile,
@@ -258,8 +292,8 @@
   }
 
   .hamburger-menu {
-    width: 22px;
     height: 15px;
+    width: 22px;
   }
   nav button {
     padding: 6.5px 30px;

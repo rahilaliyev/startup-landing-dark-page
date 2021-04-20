@@ -6,8 +6,8 @@
 }
 
 .header-text-and-button {
-  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
   -ms-flex-direction: column;
   flex-direction: column;
 }
@@ -37,16 +37,16 @@
 }
 
 .graphic-image {
-  -webkit-box-align: end;
-  -ms-flex-align: end;
   align-items: flex-end;
   background-image: url(../assets/screens.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  -webkit-box-align: end;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: end;
   height: 100vh;
   margin: 0 auto;
   width: 100%;

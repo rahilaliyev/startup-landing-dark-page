@@ -18,7 +18,6 @@
   text-align: left;
 }
 
-
 .opentype-text-and-button button {
   padding: 13.5px 67px;
 }
@@ -35,5 +34,7 @@
 .opentype-text-and-button.visible,
 .opentype-image.visible {
   opacity: 1;
+  -webkit-transform: translateX(0px);
+  -ms-transform: translateX(0px);
   transform: translateX(0px);
 }

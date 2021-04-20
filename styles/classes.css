@@ -1,6 +1,12 @@
 .flex {
   align-items: center;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -10,6 +16,8 @@ button {
   font-weight: 500;
   line-height: 1.5625rem;
   outline: none;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -74,33 +82,51 @@ ul li a {
   font-size: 1rem;
   line-height: 1.5rem;
   text-decoration: none;
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
 
 ul li a:hover {
-  color: wheat;
+  color: blanchedalmond;
 }
 
 .animation-left {
   opacity: 0;
-  transition: 1.5s ease-in-out;
+  -webkit-transform: translateX(-100px);
+  -ms-transform: translateX(-100px);
   transform: translateX(-100px);
+  -webkit-transition: 1.5s ease-in-out;
+  -o-transition: 1.5s ease-in-out;
+  transition: 1.5s ease-in-out;
 }
 
 .animation-right {
   opacity: 0;
-  transition: 1.5s ease-in-out;
+  -webkit-transform: translateX(100px);
+  -ms-transform: translateX(100px);
   transform: translateX(100px);
+  -webkit-transition: 1.5s ease-in-out;
+  -o-transition: 1.5s ease-in-out;
+  transition: 1.5s ease-in-out;
 }
 
 .animation-bottom {
   opacity: 0;
-  transition: 1.5s ease-in-out;
+  -webkit-transform: translateY(150px);
+  -ms-transform: translateY(150px);
   transform: translateY(150px);
+  -webkit-transition: 1.5s ease-in-out;
+  -o-transition: 1.5s ease-in-out;
+  transition: 1.5s ease-in-out;
 }
 
 .animation-top {
   opacity: 0;
-  transition: 1.5s ease-in-out;
+  -webkit-transform: translateY(-100px);
+  -ms-transform: translateY(-100px);
   transform: translateY(-100px);
+  -webkit-transition: 1.5s ease-in-out;
+  -o-transition: 1.5s ease-in-out;
+  transition: 1.5s ease-in-out;
 }

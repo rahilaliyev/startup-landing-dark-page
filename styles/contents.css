@@ -4,11 +4,17 @@
 }
 
 .contents-wrapper {
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -ms-flex-direction: column;
   flex-direction: column;
   padding: 50px;
 }
 
 .contents-text {
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
   width: 45%;
@@ -19,7 +25,14 @@
   background-color: var(--white);
   border: 1px solid var(--card-border);
   border-radius: 10px;
+  -webkit-box-align: center;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: center;
+  -ms-flex-direction: column;
   flex-direction: column;
   margin: 20px;
   padding: 40px;
@@ -58,5 +71,7 @@
 .contents-text.visible,
 .card.visible {
   opacity: 1;
+  -webkit-transform: translateX(0px);
+  -ms-transform: translateX(0px);
   transform: translateX(0px);
 }

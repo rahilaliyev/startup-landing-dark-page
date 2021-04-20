@@ -5,11 +5,16 @@ footer {
 }
 
 .footer-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
   width: 100%;
 }
 .about-site {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -17,12 +22,21 @@ footer {
   margin-bottom: 19px;
 }
 
+.about-site ul li a:hover {
+  text-decoration: underline;
+}
+
 .about-site ul li:first-child {
   margin-top: 40px;
 }
 
 .site-connection {
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -30,7 +44,11 @@ footer {
 .mobile,
 .social-networks {
   align-items: center;
+  -webkit-box-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: center;
   margin: 10px;
 }
 
@@ -53,5 +71,7 @@ footer {
 .about-site.visible,
 .site-connection.visible {
   opacity: 1;
+  -webkit-transform: translateX(0px);
+  -ms-transform: translateX(0px);
   transform: translateX(0px);
 }
