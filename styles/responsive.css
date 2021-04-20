@@ -8,18 +8,18 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 103px);
+    height: calc(100vh - 97px);
     justify-content: center;
     left: -70%;
     position: fixed;
-    top: 8%;
+    top: 10%;
     transition: all 1s ease-in-out;
     width: 100%;
     z-index: 1;
   }
 
   nav ul li {
-    font-size: 25px;
+    font-size: 1.5625rem;
     margin: 20px;
   }
 
@@ -50,9 +50,9 @@
   }
 
   .header-text-and-button h1 {
-    font-size: 52px;
+    font-size: 3.25rem;
     font-weight: 400;
-    line-height: 62px;
+    line-height: 3.875rem;
   }
 
   .graphic-image {
@@ -154,9 +154,12 @@
   .hamburger-line:last-child {
     width: 50%;
   }
+  .hamburger-rotate .hamburger-line:first-child {
+    transform: rotate(-45deg) translate(-13px, 5px);
+  }
 
   .hamburger-rotate .hamburger-line:last-child {
-    transform: rotate(45deg) translate(4px, 0px);
+    transform: rotate(45deg) translate(-7px, 0px);
   }
   .header-text-and-button h1 {
     width: 100%;
@@ -246,6 +249,27 @@
 }
 
 @media only screen and (max-width: 400px) {
+  nav .logo {
+    width: 40%;
+  }
+
+  .logo img {
+    width: 80%;
+  }
+
+  .hamburger-menu {
+    width: 22px;
+    height: 15px;
+  }
+  nav button {
+    padding: 6.5px 30px;
+  }
+  .header-text-and-button h1 {
+    width: 115%;
+  }
+  .features-text {
+    width: 85%;
+  }
   .control-panel-text {
     width: 65%;
   }
@@ -255,5 +279,35 @@
   }
   .control-panel-text ul li p {
     width: 125%;
+  }
+  .card {
+    width: 100%;
+  }
+
+  .card button {
+    padding: 7.5px 36px;
+  }
+
+  .third-row {
+    width: 75%;
+  }
+
+  .partners-wrapper {
+    padding: 0;
+  }
+  .partners-text {
+    width: 70%;
+  }
+
+  .opentype-text-and-button button {
+    padding: 13.5px 43px;
+  }
+  h1,
+  h2 {
+    font-size: 1.7rem;
+  }
+  p,
+  h3 {
+    font-size: 1rem;
   }
 }

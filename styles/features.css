@@ -9,7 +9,7 @@
 
 .features-text {
   flex-direction: column;
-  line-height: 30px;
+  line-height: 1.875rem;
   margin-bottom: 80px;
   text-align: center;
   width: 45%;
@@ -35,9 +35,9 @@
 
 .control-panel-text ul li p {
   color: var(--white);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: left;
   width: 85%;
   margin-bottom: 50px;
@@ -54,9 +54,6 @@
 }
 
 h3 {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 30px;
   margin: 10px;
 }
 
