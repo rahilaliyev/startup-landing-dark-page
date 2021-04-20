@@ -12,6 +12,7 @@
 .partners-text {
   flex-direction: column;
   text-align: center;
+
 }
 
 .partners-text p {
@@ -52,4 +53,10 @@
 .partners button:hover {
   background-color: var(--blue-button);
   border: 1px solid var(--blue-button);
+}
+
+.partners-text.visible,
+.partners-logos.visible {
+  opacity: 1;
+  transform: translateX(0px);
 }

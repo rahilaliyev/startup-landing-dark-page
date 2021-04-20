@@ -10,21 +10,10 @@
 
 .header-text-and-button h1 {
   width: 70%;
-  opacity: 0;
-  transition: 1.5s ease-in-out;
-  transform: translateX(-100px);
+
 }
 .header-text-and-button p {
   width: 60%;
-  opacity: 0;
-  transition: 1.5s ease-in-out;
-  transform: translateX(100px);
-}
-
-.header-button {
-  opacity: 0;
-  transition: 1.5s ease-in-out;
-  transform: translateX(-100px);
 }
 
 .header-button {
@@ -54,9 +43,6 @@
   height: 80vh;
   margin: 0 auto;
   width: 100%;
-  opacity: 0;
-  transition: 1.5s ease-in-out;
-  transform: translateY(200px);
 }
 
 .linear-gradient {

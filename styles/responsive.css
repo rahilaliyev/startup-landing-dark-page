@@ -15,6 +15,7 @@
     top: 8%;
     transition: all 1s ease-in-out;
     width: 100%;
+    z-index: 1;
   }
 
   nav ul li {
@@ -75,7 +76,7 @@
   }
 
   .card {
-    width: 70%;
+    width: 100%;
   }
 
   .first-row,
@@ -131,6 +132,12 @@
   }
 }
 
+@media only screen and (max-width: 750px) {
+  .control-panel-text {
+    width: 65%;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   nav button {
     padding: 13.5px 46px;
@@ -172,8 +179,8 @@
     width: 95%;
   }
 
-  .images-article ul {
-    width: 57%;
+  .icon-title h3 {
+    width: 60%;
   }
 
   .contents-text {
@@ -230,5 +237,18 @@
   .mobile,
   .social-networks {
     margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .control-panel-text {
+    width: 65%;
+  }
+
+  .icon-title h3 {
+    width: 100%;
+  }
+  .control-panel-text ul li p {
+    width: 125%;
   }
 }

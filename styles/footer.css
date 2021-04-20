@@ -2,9 +2,6 @@ footer {
   margin: 0 auto;
   max-width: 1400px;
   padding: 107px 0;
-  transform: translateX(-70%);
-  opacity: 0;
-  transition: 1.5s ease-in-out;
 }
 
 .footer-wrapper {
@@ -51,4 +48,9 @@ footer {
 
 .mobile img {
   padding: 4.5px;
+}
+.about-site.visible,
+.site-connection.visible {
+  opacity: 1;
+  transform: translateX(0px);
 }

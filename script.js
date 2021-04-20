@@ -11,9 +11,18 @@ const contentSecondCard = document.getElementsByClassName("card")[1];
 const galleryText = document.querySelector(".gallery-text");
 const galleryFirstRow = document.querySelector(".first-row");
 const gallerySecondRow = document.querySelector(".second-row");
-
+const galleryThirdRow = document.querySelector(".third-row");
 const partnersText = document.querySelector(".partners-text");
-const footer = document.querySelector("footer");
+const partnersLogos = document.querySelector(".partners-logos");
+const testimonialsText = document.querySelector(".testimonials h2");
+const testimonialsFirstColumn = document.querySelector(".first-column");
+const testimonialsSecondColumn = document.querySelector(".second-column");
+const testimonialsThirdColumn = document.querySelector(".third-column");
+const opentypeText = document.querySelector(".opentype-text-and-button");
+const opentypeImage = document.querySelector(".opentype-image");
+const footerLinks = document.querySelector(".about-site");
+const siteConnection = document.querySelector(".site-connection");
+
 const hamburgerMenu = document.querySelector(".hamburger-menu");
 const ul = document.querySelector("nav ul");
 
@@ -52,3 +61,16 @@ observer.observe(contentSecondCard);
 observer.observe(galleryText);
 observer.observe(galleryFirstRow);
 observer.observe(gallerySecondRow);
+observer.observe(galleryThirdRow);
+
+observer.observe(galleryThirdRow);
+observer.observe(partnersText);
+observer.observe(partnersLogos);
+observer.observe(testimonialsText);
+observer.observe(testimonialsFirstColumn);
+observer.observe(testimonialsSecondColumn);
+observer.observe(testimonialsThirdColumn);
+observer.observe(opentypeText);
+observer.observe(opentypeImage);
+observer.observe(footerLinks);
+observer.observe(siteConnection);

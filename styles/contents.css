@@ -12,9 +12,6 @@
   flex-direction: column;
   text-align: center;
   width: 45%;
-  transform: translateY(-100px);
-  opacity: 0;
-  transition: 1.5s ease-in-out;
 }
 
 .card {
@@ -27,17 +24,6 @@
   margin: 20px;
   padding: 40px;
   width: 40%;
-}
-
-.card:first-child {
-  transform: translateX(-100px);
-  opacity: 0;
-  transition: 1.5s ease-in-out;
-}
-.card:last-child {
-  transform: translateX(100px);
-  opacity: 0;
-  transition: 1.5s ease-in-out;
 }
 
 .contents-wrapper .card h3 {

@@ -1,9 +1,6 @@
 .opentype {
   margin: 80px auto;
   max-width: 1400px;
-  transform: translateX(-70%);
-  opacity: 0;
-  transition: 1.5s ease-in-out;
 }
 
 .opentype-wrapper {
@@ -21,6 +18,7 @@
   text-align: left;
 }
 
+
 .opentype-text-and-button button {
   padding: 13.5px 67px;
 }
@@ -32,4 +30,10 @@
 
 .opentype-image img:last-child {
   display: none;
+}
+
+.opentype-text-and-button.visible,
+.opentype-image.visible {
+  opacity: 1;
+  transform: translateX(0px);
 }
