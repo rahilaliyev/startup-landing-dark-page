@@ -36,12 +36,6 @@
   border: 1px solid var(--blue-button);
 }
 
-.second-row {
-  transform: translateX(100px);
-  opacity: 0;
-  transition: 1.5s ease-in-out;
-}
-
 .third-row {
   display: none;
 }
