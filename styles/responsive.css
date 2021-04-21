@@ -19,16 +19,17 @@
     -ms-flex-direction: column;
     flex-direction: column;
     -ms-flex-pack: center;
-    height: calc(100vh - 97px);
+    height: 100vh;
     justify-content: center;
     left: -70%;
-    position: fixed;
-    top: 10%;
+    position: absolute;
+    top: 101px;
     -webkit-transition: all 1s ease-in-out;
     -o-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
     width: 100%;
     z-index: 1;
+    margin: 0;
   }
 
   nav ul li {
@@ -75,6 +76,9 @@
     height: 55vh;
   }
 
+  .features-image {
+    width: 100%;
+  }
   .images-article {
     align-items: center;
     -webkit-box-align: center;
@@ -253,6 +257,7 @@
   }
   .opentype-image img:last-child {
     display: block;
+    width: 100%;
   }
 
   .footer-wrapper {
@@ -286,7 +291,13 @@
   nav .logo {
     width: 40%;
   }
+  nav ul {
+    top: 84px;
+  }
 
+  .hamburger-rotate .hamburger-line:first-child {
+    transform: rotate(-45deg) translate(-8px, 0px);
+  }
   .logo img {
     width: 80%;
   }

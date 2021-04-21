@@ -21,6 +21,15 @@ button {
   transition: 0.3s;
 }
 
+.button-fill:active {
+  color: #cccccc;
+  border: 1px solid #cccccc !important;
+}
+
+.button-empty:active {
+  background-color: #5f6bfd !important;
+}
+
 .button-fill {
   background-color: var(--blue-button);
   border: 1px solid var(--blue-button);
