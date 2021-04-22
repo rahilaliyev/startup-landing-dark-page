@@ -23,7 +23,7 @@
     justify-content: center;
     left: -70%;
     position: absolute;
-    top: 101px;
+    top: 82px;
     -webkit-transition: all 1s ease-in-out;
     -o-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
@@ -293,7 +293,7 @@
     width: 40%;
   }
   nav ul {
-    top: 84px;
+    top: 66px;
   }
 
   .hamburger-rotate .hamburger-line:first-child {
@@ -355,5 +355,9 @@
   p,
   h3 {
     font-size: 1rem;
+  }
+
+  .footer-wrapper {
+    padding: 0 60px;
   }
 }

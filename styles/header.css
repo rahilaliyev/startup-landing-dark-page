@@ -17,6 +17,7 @@
 }
 .header-text-and-button p {
   width: 60%;
+  margin: 0;
 }
 
 .header-button {

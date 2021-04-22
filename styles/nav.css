@@ -9,7 +9,7 @@ nav {
   -ms-flex-align: center;
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
-  padding: 20px 0;
+  padding: 10px 0;
   z-index: 1;
 }
 
@@ -24,7 +24,7 @@ nav ul li {
 }
 
 nav button {
-  padding: 30px 46px;
+  padding: 13.5px 46px;
 }
 
 nav button:hover,

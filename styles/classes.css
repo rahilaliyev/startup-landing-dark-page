@@ -97,12 +97,12 @@ ul li a {
 }
 
 ul li a:hover {
-  color: blanchedalmond;
+  color: #44affe;
   text-decoration: underline;
 }
 
 ul li a:active {
-  color: #edb813;
+  color: #4452fe;
 }
 
 .animation-left {

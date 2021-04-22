@@ -49,6 +49,12 @@
   display: none;
 }
 
+.first-row img,
+.second-row img,
+.third-row img {
+  width: 100%;
+}
+
 .gallery-text.visible,
 .first-row.visible,
 .second-row.visible,
