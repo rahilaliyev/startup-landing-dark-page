@@ -98,6 +98,11 @@ ul li a {
 
 ul li a:hover {
   color: blanchedalmond;
+  text-decoration: underline;
+}
+
+ul li a:active {
+  color: #edb813;
 }
 
 .animation-left {
